@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Martel+Sans&family=Press+Start+2P&family=Tourney:wght@100&family=Ubuntu+Mono&display=swap');
+
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.btn-micro-active {
+	  @apply bg-error text-error-content animate-pulse;
+	}
+  }
+

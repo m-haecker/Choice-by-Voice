@@ -1,0 +1,48 @@
+context:
+    expressions:
+        solveExercise:
+            - (Ich) (@wähle) (Antwort) [$color:color, $pv.TwoDigitInteger:int]
+            - (Antwort) [$color:color, $pv.TwoDigitInteger:int] ist [richtig, korrekt]
+            - '[$color:color, $pv.TwoDigitInteger:int] stimmt'
+            - '[korrekt, richtig] ist [$color:color, $pv.TwoDigitInteger:int]'
+            - (Die) (Antwort) (lautet, ist) [$color:color, $pv.TwoDigitInteger:int]
+        playMusic:
+            - spiele (meine) Musik
+            - starte (die) Musik
+            - musik [wiedergeben, wiedergabe]
+            - '[spiele, starte] Youtube'
+            - Musik (bitte)
+        pauseMusic:
+            - pausiere (meine) Musik
+            - Musik Pause
+            - Pause [Youtube, Musik]
+            - Pause
+        stopMusic:
+            - stoppe (meine) Musik
+            - Musik Stopp
+            - Stopp
+            - stoppe (die) [Musik, Youtube]
+            - Musik aus
+        resetScores:
+            - Reset
+            - (Meinen) Score zurücksetzen
+            - Setze (meine) Punkte zurück
+            - Resette meinen Score
+            - Resette meine Punkte
+    slots:
+        color:
+            - blau
+            - grün
+            - orange
+            - pink
+            - lila
+            - rot
+            - weiß
+            - gelb
+    macros:
+        wähle:
+            - wähle
+            - nehme
+            - entscheide mich
+            - bestimme
+            - selektiere

@@ -1,0 +1,49 @@
+{
+	"name": "choice-by-voice",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"author": {
+		"url": "https://github.com/m-haecker",
+		"name": "Markus Häcker"
+	},
+	"description": "Control a demo web application by voice. All voice data is processed on-device in real-time, no cloud.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/m-haecker/Choice-by-Voice.git"
+	},
+	"license": "MIT",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-check --tsconfig ./tsconfig.json"
+	},
+	"devDependencies": {
+		"@picovoice/rhino-web-de-worker": "^2.1.8",
+		"@picovoice/rhino-web-en-worker": "^2.1.7",
+		"@picovoice/web-voice-processor": "^2.2.3",
+		"@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+		"@tailwindcss/typography": "^0.5.2",
+		"@tsconfig/svelte": "^2.0.1",
+		"@types/youtube-player": "^5.5.6",
+		"@typescript-eslint/eslint-plugin": "^5.28.0",
+		"@typescript-eslint/parser": "^5.28.0",
+		"autoprefixer": "^10.4.4",
+		"daisyui": "^2.15.4",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"postcss": "^8.4.12",
+		"postcss-load-config": "^3.1.4",
+		"prettier": "^2.7.1",
+		"prettier-plugin-svelte": "^2.7.0",
+		"svelte": "^3.44.0",
+		"svelte-check": "^2.2.7",
+		"svelte-preprocess": "^4.10.5",
+		"tailwindcss": "^3.0.23",
+		"theme-change": "^2.0.2",
+		"tslib": "^2.3.1",
+		"typescript": "^4.5.4",
+		"vite": "^2.9.9",
+		"youtube-player": "^5.5.2"
+	}
+}
