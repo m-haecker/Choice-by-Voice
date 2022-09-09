@@ -15,7 +15,7 @@ export const appSettings: AppSettings = {
 	},
 	selectedAlias: 'none', // don't miss to try 'colors' as well
 
-	sttSensitivity: 0.25,
+	sttSensitivity: 0.3,
 
 	youTubeVideoID: 'gwVIpO9EfUQ',
 };
